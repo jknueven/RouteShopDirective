@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="shop">
+<head>
+	 <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body>
+
+<header><h1>Dog Emporium</h1></header>
+
+<div ui-view="nav"></div>
+
+<main class="clearfix" ui-view="main"></main>
+
+<footer><h3>Dog Emporium</h3><p>Dog Emporium is a Copyright 2016(cr) of PET.INC and it affialiate brands. Any unfair use of this site is subject to suit.</p></footer>
+
+<script src="js/main.js"></script>
+<script src="js/controllers/homeController.js"></script>
+<script src="js/controllers/catController.js"></script>
+<script src="js/controllers/listController.js"></script>
+<script src="js/controllers/detailController.js"></script>
+</body>
+</html>

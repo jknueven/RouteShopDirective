@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  background-color: #FF9000;
+  color: white; }
+  header h1 {
+    font-family: Times New Roman, serif;
+    font-style: italic;
+    font-size: 40px;
+    padding: 0;
+    margin-top: 0; }
+
+.descrip h2 {
+  color: #FF9000;
+  font-family: Times New Roman, serif;
+  font-style: italic;
+  font-size: 28px;
+  margin-left: 460px;
+  margin-top: -60px; }
+
+.navBtn ul {
+  list-style: none; }
+  .navBtn ul li {
+    display: inline-block; }
+
+.navBtn a {
+  background-color: #FF9000;
+  border: none;
+  margin: 10px;
+  display: inline-block; }
+
+.search {
+  margin-left: 50px; }
+
+.Item {
+  display: block;
+  margin-left: 37%; }
+  .Item img {
+    height: 300px; }
+
+main {
+  margin-bottom: 150px; }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #FF9000;
+  color: white;
+  text-align: center; }
+  footer h3 {
+    font-size: 20px; }
+
+.content {
+  margin-left: 200px; }
+  .content h1 {
+    font-style: italic; }
+  .content ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    background-color: #FF9000;
+    border-radius: 10px;
+    padding: 10px; }
+    .content ul li a:hover {
+      text-decoration: none; }
+    .content ul li h2 {
+      color: white; }
+
+.dogList {
+  margin-left: 200px; }
+  .dogList h1 {
+    font-style: italic; }
+  .dogList ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    background-color: #FF9000;
+    border-radius: 10px;
+    padding: 10px; }
+    .dogList ul li a:hover {
+      text-decoration: none; }
+    .dogList ul li h2 {
+      color: white; }
+
+.dogDetail {
+  margin-left: 200px;
+  display: inline-block; }
+  .dogDetail img {
+    height: 200px; }
+  .dogDetail h1 {
+    font-style: italic; }
+  .dogDetail ul li {
+    display: block;
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 0px;
+    background-color: #FF9000;
+    border-radius: 10px;
+    padding: 10px; }
+    .dogDetail ul li a:hover {
+      text-decoration: none; }
+    .dogDetail ul li h2 {
+      color: white; }
+    .dogDetail ul li h3 {
+      color: white; }
+    .dogDetail ul li p {
+      color: white; }
