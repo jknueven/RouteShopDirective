@@ -24,7 +24,7 @@ header {
 
 .navBtn {
   margin-left: 300px;
-  margin-top: -45px; }
+  margin-top: -50px; }
   .navBtn ul {
     list-style: none; }
     .navBtn ul li {
@@ -43,6 +43,20 @@ header {
     background-color: white;
     border-radius: 2px;
     border: none; }
+
+.weatherW {
+  border: 1px dotted white;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 30px;
+  padding: 5px; }
+  .weatherW ul {
+    padding-left: 0; }
+  .weatherW .wCity {
+    font-style: italic; }
+  .weatherW .wTemp {
+    font-size: 18px;
+    font-weight: bold; }
 
 .Item {
   display: block;

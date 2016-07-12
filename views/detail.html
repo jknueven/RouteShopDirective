@@ -1,9 +1,9 @@
-<div class="col-lg-6 dogDetail">
-<h1>Golden Retriver</h1>
-<img src="images/gret.jpg">
-<ul ng-repeat="dog in detail.data">
-	<li><h2>{{dog.name}}</h2></li>
-	<li><h3>{{dog.price}}</h3></li>
+<div class="col-lg-6 dogDetail" ng-repeat="dog in detail.data">
+
+<ul>
+	<li><h1>{{dog.name}}</h1></li>
+	<li><img class="dogImg" ng-src="{{dog.image}}"></li>
+	<li><h3>{{dog.price | currency}}</h3></li>
 	<li><p>{{dog.descrip}}</p></li>
 </ul>
 

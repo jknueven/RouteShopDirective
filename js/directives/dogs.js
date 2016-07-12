@@ -6,7 +6,7 @@
 	.directive('dog', [function (API) {
 	  return {
 	    restrict: 'E',
-	    templateUrl:"./views/partials/singleblog.html",
+	    templateUrl:"./views/partials/detail.html",
 	    link: function (scope, element, attrs) { 
 	      
 

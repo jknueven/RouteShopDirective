@@ -30,7 +30,7 @@ header {
 }
 .navBtn {
 	margin-left:300px;
-	margin-top:-45px;
+	margin-top:-50px;
 	ul{
 		list-style:none;
 		li{
@@ -58,7 +58,23 @@ header {
 	}
 }
 
-
+.weatherW {
+border:1px dotted white;
+display: inline-block;
+font-size:16px;
+margin-left:30px;
+padding:5px;
+	ul{
+		padding-left:0;
+	}
+	.wCity{
+	font-style:italic;
+	}
+	.wTemp {
+	font-size:18px;
+	font-weight:bold;
+	}
+}
 
 .Item {
 	display:block;

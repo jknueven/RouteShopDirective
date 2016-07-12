@@ -1,6 +1,7 @@
   'use strict';
 
-angular.module("shop").controller("listController", function() {
+angular.module("shop")
+.factory("dogs", function(http) {
 
 	var vm = this;
 	
