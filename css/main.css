@@ -3,37 +3,46 @@ body {
   padding: 0; }
 
 header {
-  text-align: center;
+  text-align: left;
   background-color: #FF9000;
-  color: white; }
+  color: white;
+  height: 60px; }
   header h1 {
     font-family: Times New Roman, serif;
     font-style: italic;
     font-size: 40px;
-    padding: 0;
-    margin-top: 0; }
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 30px; }
 
 .descrip h2 {
   color: #FF9000;
   font-family: Times New Roman, serif;
   font-style: italic;
   font-size: 28px;
-  margin-left: 460px;
-  margin-top: -60px; }
+  margin-left: 460px; }
 
-.navBtn ul {
-  list-style: none; }
-  .navBtn ul li {
+.navBtn {
+  margin-left: 300px;
+  margin-top: -45px; }
+  .navBtn ul {
+    list-style: none; }
+    .navBtn ul li {
+      display: inline-block;
+      margin-left: 5px; }
+  .navBtn a {
+    background-color: white;
+    color: #FF9000;
+    border: none;
     display: inline-block; }
-
-.navBtn a {
-  background-color: #FF9000;
-  border: none;
-  margin: 10px;
-  display: inline-block; }
-
-.search {
-  margin-left: 50px; }
+  .navBtn .search {
+    margin-left: 30px;
+    color: #FF9000; }
+  .navBtn .submit {
+    color: #FF9000;
+    background-color: white;
+    border-radius: 2px;
+    border: none; }
 
 .Item {
   display: block;
@@ -103,9 +112,5 @@ footer {
     padding: 10px; }
     .dogDetail ul li a:hover {
       text-decoration: none; }
-    .dogDetail ul li h2 {
-      color: white; }
-    .dogDetail ul li h3 {
-      color: white; }
-    .dogDetail ul li p {
+    .dogDetail ul li h2, .dogDetail ul li h3, .dogDetail ul li p {
       color: white; }

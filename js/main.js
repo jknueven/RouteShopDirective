@@ -5,7 +5,7 @@
 	.module('shop', ['ui.router'])
 	.config(function($stateProvider, $urlRouterProvider) {
 
-	  	$urlRouterProvider.otherwise("/404");
+	  	$urlRouterProvider.otherwise("/");
 
 	  	$stateProvider
 	  	.state('home', {

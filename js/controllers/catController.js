@@ -4,14 +4,17 @@ angular.module("shop").controller("catController", function() {
 
 	var vm = this;
 	var category1 = {
-		name:"Dire Wolf",
+		name:"Small",
+		id: 1,
 	}
 	var category2  = {
-		name:"Lap Dog",
+		name:"Medium",
+		id: 2,
 	}
 
 	var category3 = {
-		name: "Energetic",
+		name: "Large",
+		id: 3,
 	}
 
 	vm.data = [category1, category2, category3];
