@@ -2,16 +2,21 @@ body {
   margin: 0;
   padding: 0; }
 
+h1 {
+  color: #FF9000; }
+
 header {
   text-align: left;
   background-color: #FF9000;
   color: white;
-  height: 60px; }
+  height: 60px;
+  box-shadow: 0px 10px 5px #995600; }
   header h1 {
+    color: white;
     font-family: Times New Roman, serif;
     font-style: italic;
     font-size: 40px;
-    padding-top: 10px;
+    padding-top: 6px;
     margin-top: 0px;
     margin-left: 30px; }
 
@@ -20,7 +25,8 @@ header {
   font-family: Times New Roman, serif;
   font-style: italic;
   font-size: 28px;
-  margin-left: 460px; }
+  margin-left: 460px;
+  margin-top: 50px; }
 
 .navBtn {
   margin-left: 300px;
@@ -31,9 +37,8 @@ header {
       display: inline-block;
       margin-left: 5px; }
   .navBtn a {
-    background-color: white;
-    color: #FF9000;
-    border: none;
+    color: white;
+    border-bottom: 1px dotted white;
     display: inline-block; }
   .navBtn .search {
     margin-left: 30px;
